@@ -4,12 +4,19 @@ using UnityEngine;
 
 public class DieSpace : MonoBehaviour
 {
-    public GameObject respawn;
-    private void OnTriggerEnter2D(Collider2D other)
+
+   
+    public GameObject mainCamera;
+    public GameObject player;
+    private void OnTriggerStay2D(Collider2D other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "Player" && mainCamera.GetComponent<MoveUp>().GetIsJumping() == false && player.GetComponent<lineCheck>().GetOnLine() ==false)
         {
-            other.transform.position = respawn.transform.position;
+            other.transform.position = Vector3.zero;
         }
     }
+
+
+  
+
 }

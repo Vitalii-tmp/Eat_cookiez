@@ -5,6 +5,8 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 public class MoveUp : MonoBehaviour, IDragHandler, IBeginDragHandler
 {
+
+
     public float MoveSpeed;
     private Vector3 dir;
     private Vector3 lastDir;
@@ -12,13 +14,16 @@ public class MoveUp : MonoBehaviour, IDragHandler, IBeginDragHandler
 
 
     private float firstClickTime, timeBetweenClicks;
-    private bool coroutineAllowed;
     private int clickCounter;
 
     public GameObject player;
-    
-    
-    
+
+    private bool isJumping;
+
+    public void respawn()
+    {
+       player.transform.position = Vector3.zero;
+    }
     void Start()
     {
         dir = Vector3.up;
@@ -26,14 +31,18 @@ public class MoveUp : MonoBehaviour, IDragHandler, IBeginDragHandler
         firstClickTime = 0f;
         timeBetweenClicks = 0.2f;
         clickCounter = 0;
-        coroutineAllowed = true;
+        isJumping = false;
+
+        StartCoroutine(DoubleClickDetection());
+
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        if (Mathf.Abs(eventData.delta.x) > Mathf.Abs(eventData.delta.y)){
-            
-            if (eventData.delta.x > 0 && lastDir!=Vector3.left)
+        if (Mathf.Abs(eventData.delta.x) > Mathf.Abs(eventData.delta.y))
+        {
+
+            if (eventData.delta.x > 0 && lastDir != Vector3.left)
             {
                 dir = Vector3.right;
                 lastDir = Vector3.right;
@@ -43,59 +52,79 @@ public class MoveUp : MonoBehaviour, IDragHandler, IBeginDragHandler
                 dir = Vector3.left;
                 lastDir = Vector3.left;
             }
-           
+
         }
         else
         {
-            if (eventData.delta.y > 0 )
+            if (eventData.delta.y > 0)
             {
                 dir = Vector3.up;
                 lastDir = Vector3.up;
-              
+
             }
         }
     }
 
 
 
-   
+
     public void OnDrag(PointerEventData eventData)
     {
-       
+
     }
 
     void Update()
     {
-        pl_transform.position += dir*MoveSpeed;
+        pl_transform.position += dir * MoveSpeed;
 
 
-        if (Input.GetMouseButtonUp(0))
-        {
-            clickCounter += 1;
-            if(clickCounter == 1 && coroutineAllowed)
-            {
-                firstClickTime = Time.time;
-                StartCoroutine(DoubleClickDetection());
-            }
-        }
+
     }
 
     private IEnumerator DoubleClickDetection()
     {
-        coroutineAllowed = false;
-        while(Time.time<firstClickTime + timeBetweenClicks)
-        {
-            if (clickCounter == 2)
-            {
-                player.GetComponent<BoxCollider2D>().enabled = false;
-                yield return new WaitForSeconds(2);
-                player.GetComponent<BoxCollider2D>().enabled = true;
 
+        while (true)
+        {
+            if (Input.GetMouseButtonUp(0))
+            {
+                clickCounter += 1;
+                if (clickCounter == 1)
+                {
+                    firstClickTime = Time.time;
+
+                }
+               
+                if (clickCounter == 2 && Time.time - firstClickTime <= timeBetweenClicks)
+                {
+                    Debug.Log("double tap");
+                    isJumping = true;
+                    player.GetComponent<BoxCollider2D>().enabled = false;
+                    yield return new WaitForSeconds(0.5f);
+                    player.GetComponent<BoxCollider2D>().enabled = true;
+                    isJumping = false;
+                    Debug.Log(player.GetComponent<BoxCollider2D>().enabled);
+                    clickCounter = 0;
+
+                }
+                if (Time.time - firstClickTime > timeBetweenClicks)
+                {
+                    clickCounter = 0;
+                    firstClickTime = 0f;
+                }
             }
-            yield return new WaitForEndOfFrame();
+            yield return null;
+
         }
-        clickCounter = 0;
-        firstClickTime = 0f;
-        coroutineAllowed = true;
+       
+       
+
+      
+
+    }
+
+    public bool GetIsJumping()
+    {
+        return isJumping;
     }
 }
