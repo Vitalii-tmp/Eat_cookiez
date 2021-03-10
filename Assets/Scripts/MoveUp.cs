@@ -23,6 +23,9 @@ public class MoveUp : MonoBehaviour, IDragHandler, IBeginDragHandler
     public void respawn()
     {
        player.transform.position = Vector3.zero;
+        pl_transform.eulerAngles = new Vector3(0, 0, 180);
+        dir = Vector3.up;
+        lastDir = Vector3.up;
     }
     void Start()
     {
@@ -46,11 +49,15 @@ public class MoveUp : MonoBehaviour, IDragHandler, IBeginDragHandler
             {
                 dir = Vector3.right;
                 lastDir = Vector3.right;
+               pl_transform.eulerAngles = new Vector3(0, 0, 90);
             }
+
+                
             if (eventData.delta.x < 0 && lastDir != Vector3.right)
             {
                 dir = Vector3.left;
                 lastDir = Vector3.left;
+                pl_transform.eulerAngles = new Vector3(0, 0, 270);
             }
 
         }
@@ -60,7 +67,7 @@ public class MoveUp : MonoBehaviour, IDragHandler, IBeginDragHandler
             {
                 dir = Vector3.up;
                 lastDir = Vector3.up;
-
+                pl_transform.eulerAngles = new Vector3(0, 0, 180);
             }
         }
     }
@@ -77,7 +84,7 @@ public class MoveUp : MonoBehaviour, IDragHandler, IBeginDragHandler
     {
         pl_transform.position += dir * MoveSpeed;
 
-
+        
 
     }
 
