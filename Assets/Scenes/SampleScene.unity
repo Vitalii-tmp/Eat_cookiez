@@ -303,6 +303,7 @@ GameObject:
   - component: {fileID: 224622083}
   - component: {fileID: 224622082}
   - component: {fileID: 224622081}
+  - component: {fileID: 224622085}
   m_Layer: 0
   m_Name: tmp
   m_TagString: Player
@@ -421,6 +422,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &224622085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224622080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09495f6baee3bb04a8b3d1e8991c8545, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &227303162
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,8 +697,8 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
-  m_Depth: -1
+  orthographic size: 7
+  m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -708,7 +721,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.08, y: -0.04, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -789,7 +802,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 546417973}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.86, y: 45.41, z: 1}
+  m_LocalPosition: {x: 10.67, y: 47.09, z: 1}
   m_LocalScale: {x: -10.55628, y: 1.0535688, z: 0.90687835}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1560,8 +1573,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.6289978, y: -1.5969849}
+  m_SizeDelta: {x: 1.2574463, y: 3.1931763}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2116688395
 MonoBehaviour:
@@ -1575,7 +1588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c338e5dd96080640aff48c3210b45c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 0.03
+  MoveSpeed: 0.06
   pl_transform: {fileID: 224622084}
 --- !u!114 &2116688396
 MonoBehaviour:
