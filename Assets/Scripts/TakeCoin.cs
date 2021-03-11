@@ -9,6 +9,9 @@ public class TakeCoin : MonoBehaviour
         if (other.tag == "Coin")
         {
             Destroy(other.gameObject);
+            int coins = PlayerPrefs.GetInt("coins");
+            coins++;
+            PlayerPrefs.SetInt("coins", coins);
         }
     }
 }

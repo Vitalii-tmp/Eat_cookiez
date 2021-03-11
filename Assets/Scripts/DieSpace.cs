@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DieSpace : MonoBehaviour
 {
@@ -9,7 +10,8 @@ public class DieSpace : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            other.transform.position = respawn.transform.position;
+            SceneManager.LoadScene(0);
+            //other.transform.position = respawn.transform.position;
         }
     }
 }
