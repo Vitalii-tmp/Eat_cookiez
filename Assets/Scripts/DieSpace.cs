@@ -1,17 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class DieSpace : MonoBehaviour
 {
-    public GameObject respawn;
-    private void OnTriggerEnter2D(Collider2D other)
+    //private BoxCollider2D lineCollider;
+
+    //public GameObject mainCamera;
+    public GameObject player;
+    private void OnTriggerStay2D(Collider2D other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "Player" && /*mainCamera.GetComponent<MoveUp>().GetIsJumping() == false &&*/ player.GetComponent<lineCheck>().GetOnLine() == false)
         {
-            SceneManager.LoadScene(0);
-            //other.transform.position = respawn.transform.position;
+            other.transform.position = Vector3.zero;
         }
     }
+
+
+
+
 }
