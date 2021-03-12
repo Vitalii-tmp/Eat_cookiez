@@ -23,9 +23,7 @@ public class PlayerControler : MonoBehaviour, IDragHandler, IBeginDragHandler
     public void respawn()
     {
        player.transform.position = Vector3.zero;
-        pl_transform.eulerAngles = new Vector3(0, 0, 180);
-        dir = Vector3.up;
-        lastDir = Vector3.up;
+      
     }
     void Start()
     {
