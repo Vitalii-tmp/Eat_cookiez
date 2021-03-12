@@ -5,12 +5,12 @@ using UnityEngine;
 public class lineCheck : MonoBehaviour
 {
     // Start is called before the first frame update
-    private bool onLine;
+    private bool onLine=true;
 
-    private void Start()
-    {
-        onLine = true;
-    }
+    //private void Start()
+    //{
+    //    onLine = true;
+    //}
 
     private void OnTriggerStay2D(Collider2D other)
     {
@@ -19,6 +19,7 @@ public class lineCheck : MonoBehaviour
             onLine = true;
         }
         else onLine = false;
+        Debug.Log(onLine);
     }
 
     public bool GetOnLine()
