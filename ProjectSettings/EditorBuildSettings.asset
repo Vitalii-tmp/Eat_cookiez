@@ -6,21 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
+    path: Assets/Scenes/Main menus/Menu.unity
     guid: 5bc5b419fba12974ab2abf651c8cd9ab
   - enabled: 1
-    path: Assets/Menu/Levels.unity
+    path: Assets/Scenes/Main menus/Level menu.unity
     guid: 8016969b89358e54da58909503e416b7
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Levels/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: "Assets/Menu/\u0421ustomization.unity"
+    path: Assets/Scenes/Skins/Default skin.unity
     guid: d4ae742ffa34feb418571166e7e8c6c7
   - enabled: 1
-    path: Assets/Menu/Setings.unity
-    guid: 97ad4515e68ff16438d435b4a4293705
-  - enabled: 1
-    path: Assets/Menu/Skin 1.unity
+    path: Assets/Scenes/Skins/Skin 1.unity
     guid: 88b6c06537397e240a8b303d19f0abc3
+  - enabled: 1
+    path: Assets/Scenes/Levels/DieMenu.unity
+    guid: e7a0ac89f67ba434a9c3c73a324e097f
+  - enabled: 1
+    path: Assets/Scenes/Skins/Skin 2.unity
+    guid: 3249ee906371a8244ad2d1ae5b2c6d41
+  - enabled: 1
+    path: Assets/Scenes/Skins/Skin 3.unity
+    guid: 331eb0cc7e700764b9311f23432d0f54
   m_configObjects: {}
