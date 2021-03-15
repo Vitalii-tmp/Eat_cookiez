@@ -1,25 +1,16 @@
 fileFormatVersion: 2
-guid: 62f6ecdb651aebb45b170cdaf7c25e96
+guid: 959df9b3dc7afda45b1ee973211b2d97
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7135014928732141427
-    second: road2_0
+      213: 6168083732550661486
+    second: cow_0
   - first:
-      213: -4572189803189404839
-    second: road2_1
+      213: 4976267290766913063
+    second: cow_1
   - first:
-      213: 3218161713636478403
-    second: road2_2
-  - first:
-      213: -5444539627092214280
-    second: road2_3
-  - first:
-      213: 4219171546970458980
-    second: road2_4
-  - first:
-      213: 9164626278169991193
-    second: road2_5
+      213: -5612256827030829959
+    second: cow_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -49,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -101,143 +92,68 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: road2_0
+      name: cow_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 418
-        width: 111
-        height: 391
+        x: 0
+        y: 12
+        width: 343
+        height: 597
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3773036564aa40360800000000000000
-      internalID: 7135014928732141427
+      spriteID: e653c8f897f699550800000000000000
+      internalID: 6168083732550661486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: road2_1
+      name: cow_1
       rect:
         serializedVersion: 2
-        x: 142
-        y: 624
-        width: 113
-        height: 174
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95b7b3739915c80c0800000000000000
-      internalID: -4572189803189404839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: road2_2
-      rect:
-        serializedVersion: 2
-        x: 456
-        y: 488
-        width: 152
-        height: 321
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3cd801b270539ac20800000000000000
-      internalID: 3218161713636478403
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: road2_3
-      rect:
-        serializedVersion: 2
-        x: 809
-        y: 168
-        width: 360
-        height: 672
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8fd71a93e0c1174b0800000000000000
-      internalID: -5444539627092214280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: road2_4
-      rect:
-        serializedVersion: 2
-        x: 142
-        y: 476
-        width: 198
-        height: 143
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46b0c97fa228d8a30800000000000000
-      internalID: 4219171546970458980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: road2_5
-      rect:
-        serializedVersion: 2
-        x: 26
+        x: 463
         y: 0
-        width: 671
-        height: 361
+        width: 346
+        height: 625
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91858813b0b4f2f70800000000000000
-      internalID: 9164626278169991193
+      spriteID: 72eae8d4cb04f0540800000000000000
+      internalID: 4976267290766913063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cow_2
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 9
+        width: 347
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974019c96224d12b0800000000000000
+      internalID: -5612256827030829959
       vertices: []
       indices: 
       edges: []
