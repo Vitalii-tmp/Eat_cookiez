@@ -5,7 +5,6 @@ using UnityEngine;
 public class ChooseSkin : MonoBehaviour
 {
     public GameObject Player;
-    public Sprite DefaultSkin;
     public Sprite Skin1;
     public Sprite Skin2;
     public Sprite Skin3;
@@ -14,16 +13,12 @@ public class ChooseSkin : MonoBehaviour
         switch (PlayerPrefs.GetInt("skins"))
         {
             case 1:
-                Player.GetComponent<SpriteRenderer>().sprite = DefaultSkin;
-            break;
-
-            case 2:
                 Player.GetComponent<SpriteRenderer>().sprite = Skin1;
                 break;
-            case 3:
+            case 2:
                 Player.GetComponent<SpriteRenderer>().sprite = Skin2;
                 break;
-            case 4:
+            case 3:
                 Player.GetComponent<SpriteRenderer>().sprite = Skin3;
                 break;
         }
