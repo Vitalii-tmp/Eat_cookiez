@@ -7,7 +7,7 @@ public class Add50Coins : MonoBehaviour
     public void Add_50_Coins()
     {
         int coins = PlayerPrefs.GetInt("coins");
-        coins += 50;
+        coins = 100;
         PlayerPrefs.SetInt("coins", coins);
     }
 }
