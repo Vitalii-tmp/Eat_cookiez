@@ -1382,10 +1382,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1637066571}
-  DefaultSkin: {fileID: 21300000, guid: 24a21e9d03ee688429b87566d79985af, type: 3}
   Skin1: {fileID: 6168083732550661486, guid: 959df9b3dc7afda45b1ee973211b2d97, type: 3}
   Skin2: {fileID: -5792511334730316588, guid: 0a6495523dfe7b5458857e4d9ec56ea5, type: 3}
-  Skin3: {fileID: -8636221404721523813, guid: 05403207fdb586c4c849987b5ee02df3, type: 3}
+  Skin3: {fileID: 481110650328655083, guid: 05403207fdb586c4c849987b5ee02df3, type: 3}
 --- !u!1001 &724114199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1707,7 +1706,7 @@ PrefabInstance:
     - target: {fileID: 5293298190718420036, guid: ed73c3cc9a76e934fa2478a108d043e1,
         type: 3}
       propertyPath: CurrentLevel
-      value: 2
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5293298190718420037, guid: ed73c3cc9a76e934fa2478a108d043e1,
         type: 3}
@@ -2268,6 +2267,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5176606671914537875, guid: 6e6504d4110420c44aced7c3222a79b6,
+        type: 3}
+      propertyPath: m_Radius
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5495499307240748155, guid: 6e6504d4110420c44aced7c3222a79b6,
         type: 3}
@@ -2920,6 +2924,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 263691316}
   m_PrefabAsset: {fileID: 0}
+--- !u!111 &1637066573
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637066571}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: cb5fe9f92c3410843b0775ca4ee56938, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &1740052711
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -473,7 +473,7 @@ GameObject:
   - component: {fileID: 130870218}
   - component: {fileID: 130870215}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: Level menu camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -849,7 +849,7 @@ GameObject:
   - component: {fileID: 245647177}
   - component: {fileID: 245647176}
   m_Layer: 5
-  m_Name: Level 2 (1)
+  m_Name: Level 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2617,7 +2617,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 14
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3468,7 +3468,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4682672976291599618, guid: c76522ad78fb79647849fdc085c5b3a8,
+  m_Sprite: {fileID: 8165803354141390342, guid: 937cf10d3ccfb3c46a5b285beab99de4,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 0
