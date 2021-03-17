@@ -11,7 +11,6 @@ public class lineCheck : MonoBehaviour
     //{
     //    onLine = true;
     //}
-
     private void OnTriggerStay2D(Collider2D other)
     {
         if (other.tag == "Line")
