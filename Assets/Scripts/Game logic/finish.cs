@@ -13,7 +13,7 @@ public class finish : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            SceneManager.LoadScene(13);
+            SceneManager.LoadScene(24);
         }
     }
 }

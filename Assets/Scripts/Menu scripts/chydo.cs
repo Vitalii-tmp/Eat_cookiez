@@ -11,5 +11,6 @@ public class chydo : MonoBehaviour
         PlayerPrefs.SetInt("skin2", 0);
         PlayerPrefs.SetInt("skin3", 0);
         PlayerPrefs.SetInt("skin4", 0);
+        PlayerPrefs.SetInt("current_level", 25);
     }
 }
