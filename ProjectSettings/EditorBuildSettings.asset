@@ -9,8 +9,41 @@ EditorBuildSettings:
     path: Assets/Scenes/Main menus/Menu.unity
     guid: 5bc5b419fba12974ab2abf651c8cd9ab
   - enabled: 1
-    path: Assets/Scenes/Main menus/Level menu.unity
+    path: Assets/Scenes/Main menus/Level menu/1.unity
     guid: 8016969b89358e54da58909503e416b7
+  - enabled: 1
+    path: Assets/Scenes/Main menus/Level menu/2.unity
+    guid: 6081ce4b2d2e4574eb94f589ea155ee9
+  - enabled: 1
+    path: Assets/Scenes/Main menus/Level menu/3.unity
+    guid: 365c20f27787d514489f4514422714ef
+  - enabled: 1
+    path: Assets/Scenes/Main menus/Level menu/4.unity
+    guid: 08bc88c51a0a49643bad4b5f604dec1a
+  - enabled: 1
+    path: Assets/Scenes/Main menus/Level menu/5.unity
+    guid: e9a4e3dbd6d360646ae476071f367ef9
+  - enabled: 1
+    path: Assets/Scenes/Main menus/Level menu/6.unity
+    guid: 5f3efbae9a066334e9e8fad77f2594be
+  - enabled: 1
+    path: Assets/Scenes/Main menus/Level menu/7.unity
+    guid: 8f62568716182ec44a88890a7c4aa660
+  - enabled: 1
+    path: Assets/Scenes/Main menus/Level menu/8.unity
+    guid: 70983375aba2b344ca6d3967003b2e25
+  - enabled: 1
+    path: Assets/Scenes/Main menus/Level menu/9.unity
+    guid: a28645c5d0fb0a34fad0a059c2c5967a
+  - enabled: 1
+    path: Assets/Scenes/Main menus/Level menu/10.unity
+    guid: aaa1a27a9e255c44683f0fba259b1b63
+  - enabled: 1
+    path: Assets/Scenes/Main menus/Level menu/11.unity
+    guid: 21eb73486b191bd42893a2a99e1a942b
+  - enabled: 1
+    path: Assets/Scenes/Main menus/Level menu/12.unity
+    guid: 074a268d6b35dc44dadbba16293b1fb0
   - enabled: 1
     path: Assets/Scenes/Skins/Skin 1.unity
     guid: 88b6c06537397e240a8b303d19f0abc3

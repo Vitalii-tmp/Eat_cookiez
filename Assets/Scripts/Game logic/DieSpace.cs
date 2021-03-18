@@ -16,7 +16,7 @@ public class DieSpace : MonoBehaviour
     {
         if (other.tag == "Player" && player.GetComponent<lineCheck>().GetOnLine() == false)
         {
-            SceneManager.LoadScene(12);
+            SceneManager.LoadScene(23);
            // other.transform.position = Vector3.zero;
         }
     }
