@@ -1951,6 +1951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d609b88f56dbe7a4389eb31e04b709aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentLevel: 29
   Player: {fileID: 387816831}
   Skin1: {fileID: 6168083732550661486, guid: 959df9b3dc7afda45b1ee973211b2d97, type: 3}
   Skin2: {fileID: -5792511334730316588, guid: 0a6495523dfe7b5458857e4d9ec56ea5, type: 3}
@@ -2485,7 +2486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b43df186f4be34792c7c1e52598c3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 387816831}
+  CurrentLevel: 29
 --- !u!61 &1836499777
 BoxCollider2D:
   m_ObjectHideFlags: 0

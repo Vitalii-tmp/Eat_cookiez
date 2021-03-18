@@ -8,7 +8,7 @@ public class LoadPreviousLvl : MonoBehaviour
     private void Start()
     {
         if (!PlayerPrefs.HasKey("current_level"))
-            PlayerPrefs.SetInt("current_level", 14);
+            PlayerPrefs.SetInt("current_level", 25);
     }
     public void loadpreviouslevel()
     {
@@ -18,6 +18,6 @@ public class LoadPreviousLvl : MonoBehaviour
     public void loadnextlevel() 
     {
         int prevlvl = PlayerPrefs.GetInt("current_level");
-        SceneManager.LoadScene(prevlvl + 1);
+        SceneManager.LoadScene(prevlvl);
     }
 }

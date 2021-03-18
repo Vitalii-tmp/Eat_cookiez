@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class ChooseSkin : MonoBehaviour
 {
+    public int CurrentLevel;
     public GameObject Player;
     public Sprite Skin1;
     public Sprite Skin2;
     public Sprite Skin3;
     void Start()
     {
+        if (!PlayerPrefs.HasKey("current_level"))
+            PlayerPrefs.SetInt("current_level",CurrentLevel);
         switch (PlayerPrefs.GetInt("skins"))
         {
             case 1:
