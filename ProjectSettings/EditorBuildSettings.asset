@@ -13,16 +13,16 @@ EditorBuildSettings:
     guid: 8016969b89358e54da58909503e416b7
   - enabled: 1
     path: Assets/Scenes/Main menus/Level menu/2.unity
-    guid: 6081ce4b2d2e4574eb94f589ea155ee9
+    guid: 498ab9e928a0d2a409d2bc5df3e27b51
   - enabled: 1
     path: Assets/Scenes/Main menus/Level menu/3.unity
-    guid: 365c20f27787d514489f4514422714ef
+    guid: a1db3cfba6719814fbfc039be72573bb
   - enabled: 1
     path: Assets/Scenes/Main menus/Level menu/4.unity
-    guid: 08bc88c51a0a49643bad4b5f604dec1a
+    guid: f66842a1767feb1489090cef3f6b38bd
   - enabled: 1
     path: Assets/Scenes/Main menus/Level menu/5.unity
-    guid: e9a4e3dbd6d360646ae476071f367ef9
+    guid: 33e9f8f110f8ce643b6ef0cc0bb30eb1
   - enabled: 1
     path: Assets/Scenes/Main menus/Level menu/6.unity
     guid: 5f3efbae9a066334e9e8fad77f2594be
@@ -49,13 +49,22 @@ EditorBuildSettings:
     guid: 88b6c06537397e240a8b303d19f0abc3
   - enabled: 1
     path: Assets/Scenes/Skins/Skin 2.unity
-    guid: 3249ee906371a8244ad2d1ae5b2c6d41
+    guid: 55bc7ea8b55bc8542b062da2b9f92cbb
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Skins/Skin 3.unity
-    guid: 331eb0cc7e700764b9311f23432d0f54
+    guid: 6a51e7707baa34047aacc778a2213bc3
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Skins/Skin 4.unity
-    guid: d7a453fa376954847ae5050b59696c16
+    guid: ad5e0ce1be08a38488115b80fa811dc2
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Skins/Skin 5.unity
     guid: 98a0778a0393c4a40995245c18bc2b41

@@ -118,7 +118,7 @@ public class PlayerControler : MonoBehaviour, IDragHandler, IBeginDragHandler
 
     }
 
-    void Update()
+    void FixedUpdate()
     {
         pl_transform.position += dir * MoveSpeed;
 
