@@ -5,7 +5,7 @@ using UnityEngine;
 public class lineCheck : MonoBehaviour
 {
     // Start is called before the first frame update
-    private bool onLine;
+    private bool onLine=true;
 
     //private void Start()
     //{
