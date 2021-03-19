@@ -1,33 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class lineCheck : MonoBehaviour
 {
-    // Start is called before the first frame update
-    private bool onLine=true;
-
-    //private void Start()
-    //{
-    //    onLine = true;
-    //}
-    private void OnTriggerStay2D(Collider2D other)
+   
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Line")
+        if (other.tag == "Player")
         {
-            onLine = true;
-            Debug.Log("on line");
+            SceneManager.LoadScene(23);
+
         }
-        else
-        {
-            onLine = false;
-            Debug.Log("false");
-        }
+        
     }
 
-    public bool GetOnLine()
-    {
-        return onLine;
-    }
+  
 
 }
