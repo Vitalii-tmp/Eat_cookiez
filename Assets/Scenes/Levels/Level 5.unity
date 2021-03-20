@@ -1953,9 +1953,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentLevel: 29
   Player: {fileID: 387816831}
-  Skin1: {fileID: 6168083732550661486, guid: 959df9b3dc7afda45b1ee973211b2d97, type: 3}
-  Skin2: {fileID: -5792511334730316588, guid: 0a6495523dfe7b5458857e4d9ec56ea5, type: 3}
-  Skin3: {fileID: 481110650328655083, guid: 05403207fdb586c4c849987b5ee02df3, type: 3}
+  Skin1: {fileID: 4902613479757147893, guid: bfc7db1e01eedeb449b4013199c977f2, type: 3}
+  Skin2: {fileID: 2917094881976592679, guid: de06b9ba852565a4d8ddd73fd655ff52, type: 3}
+  Skin3: {fileID: 8885701704654233680, guid: c0dbbae313eb23c4aa3f4af1d0a6d1a3, type: 3}
 --- !u!114 &1331919776
 MonoBehaviour:
   m_ObjectHideFlags: 0

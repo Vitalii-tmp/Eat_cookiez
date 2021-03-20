@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 0a6495523dfe7b5458857e4d9ec56ea5
+guid: de06b9ba852565a4d8ddd73fd655ff52
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5792511334730316588
-    second: pig_0
+      213: 2917094881976592679
+    second: pig2_0
   - first:
-      213: 1382654831687872026
-    second: pig_1
+      213: 6152849880931782651
+    second: pig2_1
   - first:
-      213: 40422208409524962
-    second: pig_2
+      213: -2123718075093677193
+    second: pig2_2
   - first:
-      213: -4671057516089923990
-    second: pig_3
+      213: 859135219009369620
+    second: pig2_3
   - first:
-      213: -7706892896796293290
-    second: pig_4
+      213: -8648943076955231792
+    second: pig2_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -98,17 +98,29 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pig_0
+      name: pig2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 478
         width: 426
-        height: 586
+        height: 584
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -116,20 +128,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d4c9ff81addc9fa0800000000000000
-      internalID: -5792511334730316588
+      spriteID: 7292358f65a9b7820800000000000000
+      internalID: 2917094881976592679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pig_1
+      name: pig2_1
       rect:
         serializedVersion: 2
         x: 440
         y: 475
         width: 426
-        height: 574
+        height: 567
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1eabb96e3d203310800000000000000
-      internalID: 1382654831687872026
+      spriteID: bff4e351e50536550800000000000000
+      internalID: 6152849880931782651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pig_2
+      name: pig2_2
       rect:
         serializedVersion: 2
-        x: 886
+        x: 907
         y: 477
-        width: 452
-        height: 577
+        width: 426
+        height: 587
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ea594dc8cb9f8000800000000000000
-      internalID: 40422208409524962
+      spriteID: 77b07f2a9a90782e0800000000000000
+      internalID: -2123718075093677193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pig_3
+      name: pig2_3
       rect:
         serializedVersion: 2
         x: 1439
         y: 457
         width: 426
-        height: 601
+        height: 573
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +191,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a66aa0cffe11d2fb0800000000000000
-      internalID: -4671057516089923990
+      spriteID: 416b4170ee24ceb00800000000000000
+      internalID: 859135219009369620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pig_4
+      name: pig2_4
       rect:
         serializedVersion: 2
         x: 322
         y: 0
-        width: 607
-        height: 433
+        width: 609
+        height: 426
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +212,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 657c9744ebd9b0590800000000000000
-      internalID: -7706892896796293290
+      spriteID: 0d962877818c8f780800000000000000
+      internalID: -8648943076955231792
       vertices: []
       indices: 
       edges: []

@@ -611,6 +611,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1383199903998042690, guid: 2ce0bc5d6e8e2674ebb1c6248040086b,
         type: 3}
+      propertyPath: m_Size.x
+      value: 3.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 1383199903998042690, guid: 2ce0bc5d6e8e2674ebb1c6248040086b,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 5.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1383199903998042690, guid: 2ce0bc5d6e8e2674ebb1c6248040086b,
+        type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 6168083732550661486, guid: 959df9b3dc7afda45b1ee973211b2d97,
@@ -619,6 +629,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1383199903998042690, guid: 2ce0bc5d6e8e2674ebb1c6248040086b,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1383199903998042691, guid: 2ce0bc5d6e8e2674ebb1c6248040086b,
         type: 3}
@@ -1381,16 +1396,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d609b88f56dbe7a4389eb31e04b709aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentLevel: 25
   Player: {fileID: 1637066571}
-  Skin1: {fileID: 6168083732550661486, guid: 959df9b3dc7afda45b1ee973211b2d97, type: 3}
-  Skin2: {fileID: -5792511334730316588, guid: 0a6495523dfe7b5458857e4d9ec56ea5, type: 3}
-  Skin3: {fileID: 481110650328655083, guid: 05403207fdb586c4c849987b5ee02df3, type: 3}
+  Skin1: {fileID: 4902613479757147893, guid: bfc7db1e01eedeb449b4013199c977f2, type: 3}
+  Skin2: {fileID: 2917094881976592679, guid: de06b9ba852565a4d8ddd73fd655ff52, type: 3}
+  Skin3: {fileID: 8885701704654233680, guid: c0dbbae313eb23c4aa3f4af1d0a6d1a3, type: 3}
 --- !u!1001 &724114199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2950,7 +2965,7 @@ Animator:
   m_GameObject: {fileID: 1637066571}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7cbb6515bfe4ce148b54e89971ca94d3, type: 2}
+  m_Controller: {fileID: 9100000, guid: c9e83feb04f8eaf4c97b91ec93d27639, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2959,6 +2974,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1637066579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637066571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd8c36d30d2ebeb42881dd52a92e9c9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1637066573}
 --- !u!1001 &1740052711
 PrefabInstance:
   m_ObjectHideFlags: 0
