@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 170305386}
   - component: {fileID: 170305385}
   - component: {fileID: 170305384}
+  - component: {fileID: 170305387}
   m_Layer: 5
   m_Name: PreviousSkin
   m_TagString: Untagged
@@ -251,6 +252,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 170305382}
   m_CullTransparentMesh: 0
+--- !u!95 &170305387
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170305382}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cc51d7f9c6ca43348aa697077cf726b9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &244212514
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,6 +283,7 @@ GameObject:
   - component: {fileID: 244212518}
   - component: {fileID: 244212517}
   - component: {fileID: 244212516}
+  - component: {fileID: 244212519}
   m_Layer: 5
   m_Name: NextSkin
   m_TagString: Untagged
@@ -381,6 +402,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244212514}
   m_CullTransparentMesh: 0
+--- !u!95 &244212519
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244212514}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c6a115296b1d0ad4e81c0606a2a7f2f1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &319407149
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,6 +672,7 @@ GameObject:
   - component: {fileID: 618089707}
   - component: {fileID: 618089706}
   - component: {fileID: 618089705}
+  - component: {fileID: 618089708}
   m_Layer: 5
   m_Name: Return
   m_TagString: Untagged
@@ -750,6 +791,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 618089703}
   m_CullTransparentMesh: 0
+--- !u!95 &618089708
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618089703}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ef2c027442285cb4ca678caf4911c7bf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &702484405
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,6 +974,7 @@ GameObject:
   - component: {fileID: 816184802}
   - component: {fileID: 816184801}
   - component: {fileID: 816184800}
+  - component: {fileID: 816184803}
   m_Layer: 5
   m_Name: SkinCondition
   m_TagString: Untagged
@@ -1032,6 +1093,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 816184798}
   m_CullTransparentMesh: 0
+--- !u!95 &816184803
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816184798}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 41eccc95e27a212428e9e54aa0578f91, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &914108285
 GameObject:
   m_ObjectHideFlags: 0
@@ -1718,7 +1798,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: f5a7a31275542a14aafeee808115e81f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0

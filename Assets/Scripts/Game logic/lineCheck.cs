@@ -6,17 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class lineCheck : MonoBehaviour
 {
-   
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
             SceneManager.LoadScene(23);
-
         }
         
     }
-
-  
-
 }
