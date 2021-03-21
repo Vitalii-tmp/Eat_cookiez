@@ -6787,7 +6787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c338e5dd96080640aff48c3210b45c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 0.12
+  MoveSpeed: 0.15
   pl_transform: {fileID: 1323927697}
   player: {fileID: 1323927698}
 --- !u!114 &1046598505
@@ -9215,6 +9215,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3015969851962693858, guid: b59e754d85c9865479b93487bf05a59e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3015969851962693858, guid: b59e754d85c9865479b93487bf05a59e,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3015969851962693883, guid: b59e754d85c9865479b93487bf05a59e,
         type: 3}
       propertyPath: m_Name
@@ -12881,7 +12891,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1836792067
 PrefabInstance:
