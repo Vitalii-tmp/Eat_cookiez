@@ -1,16 +1,22 @@
 fileFormatVersion: 2
-guid: 959df9b3dc7afda45b1ee973211b2d97
+guid: c0dbbae313eb23c4aa3f4af1d0a6d1a3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6168083732550661486
-    second: cow_0
+      213: 8885701704654233680
+    second: sheep2_0
   - first:
-      213: 4976267290766913063
-    second: cow_1
+      213: -7080612870679142915
+    second: sheep2_1
   - first:
-      213: -5612256827030829959
-    second: cow_2
+      213: 4954776617430802395
+    second: sheep2_2
+  - first:
+      213: -8739200170524896786
+    second: sheep2_3
+  - first:
+      213: 210974881252929786
+    second: sheep2_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -92,38 +98,50 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cow_0
+      name: sheep2_0
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 617
+        width: 531
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050aff53f9a505b70800000000000000
+      internalID: 8885701704654233680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheep2_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 12
-        width: 343
-        height: 597
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e653c8f897f699550800000000000000
-      internalID: 6168083732550661486
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cow_1
-      rect:
-        serializedVersion: 2
-        x: 463
         y: 0
-        width: 346
-        height: 625
+        width: 359
+        height: 510
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72eae8d4cb04f0540800000000000000
-      internalID: 4976267290766913063
+      spriteID: dfd5c1bdb1c9cbd90800000000000000
+      internalID: -7080612870679142915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cow_2
+      name: sheep2_2
       rect:
         serializedVersion: 2
-        x: 904
-        y: 9
-        width: 347
-        height: 638
+        x: 399
+        y: 17
+        width: 359
+        height: 561
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +170,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 974019c96224d12b0800000000000000
-      internalID: -5612256827030829959
+      spriteID: bdfdf5ff417e2c440800000000000000
+      internalID: 4954776617430802395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheep2_3
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 17
+        width: 359
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee194d64fbf18b680800000000000000
+      internalID: -8739200170524896786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheep2_4
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 53
+        width: 359
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af07c9569888de200800000000000000
+      internalID: 210974881252929786
       vertices: []
       indices: 
       edges: []

@@ -1,22 +1,16 @@
 fileFormatVersion: 2
-guid: 05403207fdb586c4c849987b5ee02df3
+guid: bfc7db1e01eedeb449b4013199c977f2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8636221404721523813
-    second: sheep_0
+      213: 4902613479757147893
+    second: cow2_0
   - first:
-      213: 481110650328655083
-    second: sheep_1
+      213: -5893689254222924260
+    second: cow2_1
   - first:
-      213: -3776486562799753565
-    second: sheep_2
-  - first:
-      213: 8999477905645186640
-    second: sheep_3
-  - first:
-      213: -79789928893985806
-    second: sheep_4
+      213: -7604482901873858885
+    second: cow2_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -98,89 +92,80 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sheep_1
+      name: cow2_0
       rect:
         serializedVersion: 2
         x: 0
+        y: 12
+        width: 343
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe67f31cf4990440800000000000000
+      internalID: 4902613479757147893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cow2_1
+      rect:
+        serializedVersion: 2
+        x: 463
         y: 0
-        width: 359
-        height: 537
+        width: 346
+        height: 625
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be42f72669f3da600800000000000000
-      internalID: 481110650328655083
+      spriteID: c16718179d8653ea0800000000000000
+      internalID: -5893689254222924260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheep_2
+      name: cow2_2
       rect:
         serializedVersion: 2
-        x: 399
-        y: 17
-        width: 359
-        height: 563
+        x: 904
+        y: 9
+        width: 347
+        height: 638
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a6e845da79379bc0800000000000000
-      internalID: -3776486562799753565
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sheep_3
-      rect:
-        serializedVersion: 2
-        x: 774
-        y: 17
-        width: 374
-        height: 507
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05e25f1597194ec70800000000000000
-      internalID: 8999477905645186640
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sheep_4
-      rect:
-        serializedVersion: 2
-        x: 1176
-        y: 53
-        width: 359
-        height: 524
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2fbce9f7b7784eef0800000000000000
-      internalID: -79789928893985806
+      spriteID: bb6e64d4713777690800000000000000
+      internalID: -7604482901873858885
       vertices: []
       indices: 
       edges: []
