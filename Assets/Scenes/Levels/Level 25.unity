@@ -8301,7 +8301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c338e5dd96080640aff48c3210b45c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 0.11
+  MoveSpeed: 0.16
   pl_transform: {fileID: 897969902}
   player: {fileID: 897969901}
 --- !u!114 &1046598505
