@@ -1413,9 +1413,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 0.12
-  pl_transform: {fileID: 3015969851962693884, guid: b59e754d85c9865479b93487bf05a59e,
-    type: 3}
-  player: {fileID: 3015969851962693883, guid: b59e754d85c9865479b93487bf05a59e, type: 3}
+  pl_transform: {fileID: 1225451743}
+  player: {fileID: 1225451735}
 --- !u!114 &1046598505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1624,6 +1623,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3015969851962693858, guid: b59e754d85c9865479b93487bf05a59e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3015969851962693858, guid: b59e754d85c9865479b93487bf05a59e,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3015969851962693883, guid: b59e754d85c9865479b93487bf05a59e,
         type: 3}
       propertyPath: m_Name
@@ -1689,6 +1698,12 @@ PrefabInstance:
 --- !u!1 &1225451735 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3015969851962693883, guid: b59e754d85c9865479b93487bf05a59e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1225451734}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1225451743 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3015969851962693884, guid: b59e754d85c9865479b93487bf05a59e,
     type: 3}
   m_PrefabInstance: {fileID: 1225451734}
   m_PrefabAsset: {fileID: 0}
