@@ -1324,11 +1324,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SkinNumber: 1
   StrSkinNumber: 1
-  SkinPrice: 10
+  SkinPrice: 0
   text: {fileID: 727345374}
-  Player: {fileID: 1383199903998042695, guid: 2ce0bc5d6e8e2674ebb1c6248040086b, type: 3}
-  NewSprite: {fileID: 4902613479757147893, guid: bfc7db1e01eedeb449b4013199c977f2,
-    type: 3}
   button: {fileID: 547735779}
 --- !u!1 &1463252068
 GameObject:

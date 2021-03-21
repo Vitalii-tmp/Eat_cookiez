@@ -9,8 +9,6 @@ public class SelectedSkin : MonoBehaviour
     public string StrSkinNumber;
     public int SkinPrice;
     public Text text;
-    public GameObject Player;
-    public Sprite NewSprite;
     public Button button;
     private void Awake()
     {
@@ -42,14 +40,12 @@ public class SelectedSkin : MonoBehaviour
             PlayerPrefs.SetInt("coins", coins);
             text.text = "Поточний";
             PlayerPrefs.SetInt("skins", SkinNumber);
-            Player.GetComponent<SpriteRenderer>().sprite = NewSprite;
             PlayerPrefs.SetInt("skin" + StrSkinNumber, SkinNumber);
         }
         if (text.text == "Вибрати")
         {
             text.text = "Поточний";
             PlayerPrefs.SetInt("skins", SkinNumber);
-            Player.GetComponent<SpriteRenderer>().sprite = NewSprite;
         }
     }
 }

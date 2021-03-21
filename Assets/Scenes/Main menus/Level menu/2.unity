@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 52517445}
   - component: {fileID: 52517444}
   m_Layer: 5
-  m_Name: Level 9
+  m_Name: Level 18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -153,7 +153,7 @@ RectTransform:
   m_Children:
   - {fileID: 1172604984}
   m_Father: {fileID: 1442310349}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.676796, y: 0.25500003}
   m_AnchorMax: {x: 0.874, y: 0.37100002}
@@ -265,7 +265,7 @@ GameObject:
   - component: {fileID: 118524200}
   - component: {fileID: 118524199}
   m_Layer: 5
-  m_Name: Level 7
+  m_Name: Level 16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -284,7 +284,7 @@ RectTransform:
   m_Children:
   - {fileID: 703181986}
   m_Father: {fileID: 1442310349}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.11955557, y: 0.25500003}
   m_AnchorMax: {x: 0.316, y: 0.37100002}
@@ -395,6 +395,7 @@ GameObject:
   - component: {fileID: 130870216}
   - component: {fileID: 130870218}
   - component: {fileID: 130870215}
+  - component: {fileID: 130870219}
   m_Layer: 0
   m_Name: main camera
   m_TagString: MainCamera
@@ -479,6 +480,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9aa370b07e372a4e85537f62d88c2c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &130870219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130870214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff137b9f7b2c23f429ce7339ddb30fb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonLevel: 22000000230000002400000025000000260000002700000028000000290000002a000000
+  button:
+  - {fileID: 1578159754}
+  - {fileID: 1166364053}
+  - {fileID: 1174014504}
+  - {fileID: 205761771}
+  - {fileID: 1957899937}
+  - {fileID: 245647176}
+  - {fileID: 118524199}
+  - {fileID: 1010447047}
+  - {fileID: 52517444}
 --- !u!1 &205761769
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,7 +516,7 @@ GameObject:
   - component: {fileID: 205761772}
   - component: {fileID: 205761771}
   m_Layer: 5
-  m_Name: Level 4
+  m_Name: Level 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -783,7 +807,7 @@ GameObject:
   - component: {fileID: 245647177}
   - component: {fileID: 245647176}
   m_Layer: 5
-  m_Name: Level 6
+  m_Name: Level 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1732,7 +1756,7 @@ GameObject:
   - component: {fileID: 1010447048}
   - component: {fileID: 1010447047}
   m_Layer: 5
-  m_Name: Level 8
+  m_Name: Level 17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1751,7 +1775,7 @@ RectTransform:
   m_Children:
   - {fileID: 1577255061}
   m_Father: {fileID: 1442310349}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.39659864, y: 0.25500003}
   m_AnchorMax: {x: 0.59440136, y: 0.37100002}
@@ -1863,7 +1887,7 @@ GameObject:
   - component: {fileID: 1166364054}
   - component: {fileID: 1166364053}
   m_Layer: 5
-  m_Name: Level 2
+  m_Name: Level 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2072,7 +2096,7 @@ GameObject:
   - component: {fileID: 1174014505}
   - component: {fileID: 1174014504}
   m_Layer: 5
-  m_Name: Level 3
+  m_Name: Level 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2303,9 +2327,9 @@ RectTransform:
   - {fileID: 205761770}
   - {fileID: 1957899936}
   - {fileID: 245647175}
+  - {fileID: 118524198}
   - {fileID: 1010447046}
   - {fileID: 52517443}
-  - {fileID: 118524198}
   - {fileID: 272274845}
   m_Father: {fileID: 1767408454}
   m_RootOrder: 0
@@ -2525,7 +2549,7 @@ GameObject:
   - component: {fileID: 1578159755}
   - component: {fileID: 1578159754}
   m_Layer: 5
-  m_Name: Level 1
+  m_Name: Level 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2835,7 +2859,7 @@ GameObject:
   - component: {fileID: 1957899938}
   - component: {fileID: 1957899937}
   m_Layer: 5
-  m_Name: Level 5
+  m_Name: Level 14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3136,7 +3160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.59780264, y: 0.025}
   m_AnchorMax: {x: 0.8944014, y: 0.18800001}
-  m_AnchoredPosition: {x: 0, y: -0.000015258789}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -0.000015258789, y: 0.000030517578}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2102657789
