@@ -7,11 +7,6 @@ public class OpeningsLevel : MonoBehaviour
 {
     public int[] ButtonLevel;
     public Button[] button;
-
-    private void Start()
-    {
-        PlayerPrefs.SetInt("current_level", 25);
-    }
     private void Awake()
     {
         for (int i = 0; i < 9; i++)
