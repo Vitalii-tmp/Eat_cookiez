@@ -11,10 +11,11 @@ public class NumbOfCoins : MonoBehaviour
         if (!PlayerPrefs.HasKey("current_level"))
             PlayerPrefs.SetInt("current_level", 25);
         if (!PlayerPrefs.HasKey("skin1"))
-            PlayerPrefs.SetInt("skin1", 1);
+        PlayerPrefs.SetInt("skin1", 1);
         if (!PlayerPrefs.HasKey("skins"))
             PlayerPrefs.SetInt("skins", 1);
-        PlayerPrefs.SetInt("current_level", 25);
+        if (!PlayerPrefs.HasKey("current_level"))
+            PlayerPrefs.SetInt("current_level", 25);
         if (!PlayerPrefs.HasKey("coins"))
             PlayerPrefs.SetInt("coins", 0);
     }
