@@ -15,5 +15,14 @@ public class Music : MonoBehaviour
          lvlsound.name = "sound";
         DontDestroyOnLoad(lvlsound);
     }
+    public void MuteMusic() 
+    {
+       // lvlsound = GameObject.FindGameObjectWithTag("sound");
+        if (lvlsound.transform.GetChild(0).gameObject.GetComponent<AudioSource>().volume != 0)
+            lvlsound.transform.GetChild(0).gameObject.GetComponent<AudioSource>().volume = 0;
+        else
+            lvlsound.transform.GetChild(0).gameObject.GetComponent<AudioSource>().volume = 0.3f;
+
+    }
 }
 
