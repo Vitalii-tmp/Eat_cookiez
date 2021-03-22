@@ -11,8 +11,12 @@ public class finish : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            PlayerPrefs.SetInt("current_level", CurrentLevel + 1);
-            SceneManager.LoadScene(24);
+            int currentLevel = PlayerPrefs.GetInt("current_level");
+            if (currentLevel == CurrentLevel)
+            {
+                PlayerPrefs.SetInt("current_level", CurrentLevel + 1);
+                SceneManager.LoadScene(24);
+            }
         }
     }
 }
