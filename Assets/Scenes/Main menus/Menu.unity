@@ -1056,7 +1056,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.11400001}
   m_AnchorMin: {x: 0.036000002, y: 0.7495625}
   m_AnchorMax: {x: 0.96300006, y: 0.9488747}
-  m_AnchoredPosition: {x: -2, y: 279.99997}
+  m_AnchoredPosition: {x: -2, y: 279.99994}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &664323862
@@ -1132,7 +1132,7 @@ GameObject:
   - component: {fileID: 1125167092}
   - component: {fileID: 1125167094}
   m_Layer: 5
-  m_Name: Image
+  m_Name: CoinImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1176,7 +1176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5657496932814946913, guid: d34b842d24de8724080c4bb759a3d271,
+  m_Sprite: {fileID: -7483357107977956288, guid: c76522ad78fb79647849fdc085c5b3a8,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 0
