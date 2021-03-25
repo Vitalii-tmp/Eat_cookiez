@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ReverseStop : MonoBehaviour
+public class Reverse : MonoBehaviour
 {
     public GameObject panel;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
-            panel.GetComponent<PlayerControler>().SetRevers(false);
+            panel.GetComponent<PlayerControler>().SetRevers(!panel.GetComponent<PlayerControler>().ReturnReverse());
         }
     }
 }
