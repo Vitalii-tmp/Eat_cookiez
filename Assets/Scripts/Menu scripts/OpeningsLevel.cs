@@ -11,7 +11,7 @@ public class OpeningsLevel : MonoBehaviour
     {
         for (int i = 0; i < 9; i++)
         {
-            if (ButtonLevel[i] <= PlayerPrefs.GetInt("current_level"))
+            if (ButtonLevel[i] <= PlayerPrefs.GetInt("available_levels"))
                 button[i].interactable = true;
             else
                 button[i].interactable = false;

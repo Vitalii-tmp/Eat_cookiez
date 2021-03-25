@@ -12,6 +12,5 @@ public class lineCheck : MonoBehaviour
         {
             SceneManager.LoadScene(23);
         }
-        
     }
 }

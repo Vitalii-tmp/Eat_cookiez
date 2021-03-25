@@ -4,17 +4,19 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class finish : MonoBehaviour
-
 {
     public int CurrentLevel;
+    private void Start()
+    {
+        PlayerPrefs.SetInt("current_level", CurrentLevel);
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
-            int currentLevel = PlayerPrefs.GetInt("current_level");
-            if (currentLevel == CurrentLevel)
+            if (PlayerPrefs.GetInt("available_levels") == PlayerPrefs.GetInt("current_level"))
             {
-                PlayerPrefs.SetInt("current_level", CurrentLevel + 1);
+                PlayerPrefs.SetInt("available_levels", CurrentLevel + 1);
                 SceneManager.LoadScene(24);
             }
         }
