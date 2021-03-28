@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: 687630b559d3c474884d258a1e313208
+guid: 6323f5e6fb0255342b210c65363faa37
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9149579788945033890
-    second: road3_0
+      213: -3259887071080348323
+    second: osel_0
   - first:
-      213: -6128885666459979524
-    second: road3_1
+      213: 4696916446977518195
+    second: osel_1
+  - first:
+      213: 5829624464116865078
+    second: osel_2
+  - first:
+      213: 8699961897110010352
+    second: osel_3
+  - first:
+      213: 1916035565146767782
+    second: osel_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -105,13 +114,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: road3_0
+      name: osel_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 200
-        height: 414
+        y: 10
+        width: 294
+        height: 597
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +128,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5576d398a9260180800000000000000
-      internalID: -9149579788945033890
+      spriteID: d550e500bfd82c2d0800000000000000
+      internalID: -3259887071080348323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: road3_1
+      name: osel_1
       rect:
         serializedVersion: 2
-        x: 364
-        y: 0
-        width: 444
-        height: 453
+        x: 361
+        y: 23
+        width: 293
+        height: 599
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +149,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf07ba565f2d1faa0800000000000000
-      internalID: -6128885666459979524
+      spriteID: 37ae8c98f9cce2140800000000000000
+      internalID: 4696916446977518195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: osel_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 33
+        width: 294
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638dc9d309cf6e050800000000000000
+      internalID: 5829624464116865078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: osel_3
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 36
+        width: 294
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9fca440497cb870800000000000000
+      internalID: 8699961897110010352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: osel_4
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 0
+        width: 294
+        height: 561
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a18695e130279a10800000000000000
+      internalID: 1916035565146767782
       vertices: []
       indices: 
       edges: []

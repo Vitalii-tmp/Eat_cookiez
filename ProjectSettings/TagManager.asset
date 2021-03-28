@@ -8,6 +8,10 @@ TagManager:
   - Coin
   - Line2
   - sound
+  - CameraIventBegin
+  - CameraIventEnd
+  - CameraIventBegin2
+  - CameraIventBegin3
   layers:
   - Default
   - TransparentFX
