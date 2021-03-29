@@ -5,27 +5,24 @@ using UnityEngine;
 public class ChangeAnimation : MonoBehaviour
 {
     [SerializeField] private Animator animator;
-    private void FixedUpdate()
+    private void Awake()
     {
-        if (PlayerPrefs.GetInt("skins") == 1) 
+        switch (PlayerPrefs.GetInt("skins"))
         {
-            animator.SetBool("Cow", true);
-            animator.SetBool("Pig", false);
-            animator.SetBool("Sheep", false);
-        }
-        if (PlayerPrefs.GetInt("skins") == 2)
-        {
-            animator.SetBool("Cow", false);
-            animator.SetBool("Pig", true);
-            animator.SetBool("Sheep", false);
-        }
-        if (PlayerPrefs.GetInt("skins") == 3)
-        {
-            animator.SetBool("Cow", false);
-            animator.SetBool("Pig", false);
-            animator.SetBool("Sheep", true);
-        }
-    }
+            case 1:
+                animator.Play("Cow");
+                break;
 
-   
+            case 2:
+                animator.Play("Pig");
+                break;
+
+            case 3:
+                animator.Play("Sheep");
+                break;
+            case 4:
+                animator.Play("Osel");
+                break;
+        }
+    } 
 }

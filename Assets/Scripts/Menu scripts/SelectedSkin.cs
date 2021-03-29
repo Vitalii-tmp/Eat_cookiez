@@ -12,8 +12,7 @@ public class SelectedSkin : MonoBehaviour
     public Button button;
     private void Awake()
     {
-        if (!PlayerPrefs.HasKey("skin" + StrSkinNumber))
-            PlayerPrefs.SetInt("skin" + StrSkinNumber, 0);
+
         int number = PlayerPrefs.GetInt("skin" + StrSkinNumber);
         if (number != SkinNumber)
         {
