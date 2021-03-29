@@ -39,6 +39,11 @@ public class CameraMove : MonoBehaviour
             anim.Play("CameraIventEnd");
             move = true;
         }
+        if (other.tag == "CameraIventEnd2")
+        {
+            anim.Play("CameraIventEnd2");
+            move = true;
+        }
     }
    void Update()
     {

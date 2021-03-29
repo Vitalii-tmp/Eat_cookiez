@@ -12,6 +12,7 @@ TagManager:
   - CameraIventEnd
   - CameraIventBegin2
   - CameraIventBegin3
+  - CameraIventEnd2
   layers:
   - Default
   - TransparentFX
