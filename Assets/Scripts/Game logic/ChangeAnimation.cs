@@ -7,6 +7,7 @@ public class ChangeAnimation : MonoBehaviour
     [SerializeField] private Animator animator;
     private void Awake()
     {
+        //depend on selected skin start animation
         switch (PlayerPrefs.GetInt("skins"))
         {
             case 1:

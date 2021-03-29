@@ -9,11 +9,18 @@ public class CameraMove : MonoBehaviour
     public bool SelfMovingAnimation;
     private bool move;
     private Animator anim;
+    
+
+    
     private void Start()
     {
         anim = MainCamera.GetComponent<Animator>();
         move = true;
     }
+
+
+
+    //if camera touch trigers start animations
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "CameraIventBegin")
@@ -47,6 +54,7 @@ public class CameraMove : MonoBehaviour
     }
    void Update()
     {
+        //camera move with player
         if (move)
             cameramove.transform.position = new Vector3(transform.position.x - 0.73f, transform.position.y, 0);
     }

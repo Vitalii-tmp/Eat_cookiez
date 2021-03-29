@@ -12,6 +12,7 @@ public class finish : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //if player touch finish collider open next lvl and load victory scene
         if (collision.tag == "Player")
         {
             if (45 == PlayerPrefs.GetInt("current_level"))

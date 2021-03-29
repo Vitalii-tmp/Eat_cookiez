@@ -5,95 +5,103 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 public class PlayerControler : MonoBehaviour, IDragHandler, IBeginDragHandler
 {
+    //player speed
     public float MoveSpeed;
+
+    //current direction variable
     private Vector3 dir;
+    //last direction variable
     private Vector3 lastDir;
-    public Transform pl_transform;
+
+    //revers flag
     private bool reverse;
 
+    //player
     public GameObject player;
 
+    //Getter for revers
     public bool ReturnReverse()
     {
         return reverse;
-    } 
-
-    public void respawn()
-    {
-       player.transform.position = Vector3.zero;
-      
     }
 
     void Start()
     {
+        //config on start 
         dir = Vector3.up;
         lastDir = Vector3.up;
         reverse = false;
     }
 
+
+    //method for swipes
+    //depend on swipe direction change dir, last dir, and andle of player
     public void OnBeginDrag(PointerEventData eventData)
     {
+        //without revers 
         if (reverse == false)
         {
             if (Mathf.Abs(eventData.delta.x) > Mathf.Abs(eventData.delta.y))
             {
-
+                //swipe right
                 if (eventData.delta.x > 0 && lastDir != Vector3.left)
                 {
                     dir = Vector3.right;
                     lastDir = Vector3.right;
-                    pl_transform.eulerAngles = new Vector3(0, 0, 90);
+                    player.transform.eulerAngles = new Vector3(0, 0, 90);
                 }
 
-
+                //swipe left
                 if (eventData.delta.x < 0 && lastDir != Vector3.right)
                 {
                     dir = Vector3.left;
                     lastDir = Vector3.left;
-                    pl_transform.eulerAngles = new Vector3(0, 0, 270);
+                   player.transform.eulerAngles = new Vector3(0, 0, 270);
                 }
 
             }
             else
             {
+                //swipe up
                 if (eventData.delta.y > 0)
                 {
                     dir = Vector3.up;
                     lastDir = Vector3.up;
-                    pl_transform.eulerAngles = new Vector3(0, 0, 180);
+                   player.transform.eulerAngles = new Vector3(0, 0, 180);
                 }
             }
         }
 
-
+        //with revers 
         if (reverse == true)
         {
             if (Mathf.Abs(eventData.delta.x) > Mathf.Abs(eventData.delta.y))
             {
-
+                //swipe right
                 if (eventData.delta.x > 0 && lastDir != Vector3.right)
                 {
                     dir = Vector3.left;
                     lastDir = Vector3.left;
-                    pl_transform.eulerAngles = new Vector3(0, 0, 270);
+                   player.transform.eulerAngles = new Vector3(0, 0, 270);
                 }
 
-
+                //swipe left
                 if (eventData.delta.x < 0 && lastDir != Vector3.left)
                 {
                     dir = Vector3.right;
                     lastDir = Vector3.right;
-                    pl_transform.eulerAngles = new Vector3(0, 0, 90);
+                   player.transform.eulerAngles = new Vector3(0, 0, 90);
                 }
 
             }
             else
             {
+                //swipe up
                 if (eventData.delta.y > 0)
                 {
                     dir = Vector3.up;
                     lastDir = Vector3.up;
-                    pl_transform.eulerAngles = new Vector3(0, 0, 180);
+                   player.transform.eulerAngles = new Vector3(0, 0, 180);
                 }
             }
         }
@@ -105,16 +113,19 @@ public class PlayerControler : MonoBehaviour, IDragHandler, IBeginDragHandler
 
     }
 
+    //move player depend on direction
     void FixedUpdate()
     {
-        pl_transform.position += dir * MoveSpeed;
+        player.transform.position += dir * MoveSpeed;
     }
 
+    //getter for direction
     public Vector3 GetDir()
     {
-        return dir; 
+        return dir;
     }
 
+    //set revers
     public void SetRevers(bool value)
     {
         reverse = value;
