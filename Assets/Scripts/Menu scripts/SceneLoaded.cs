@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class SceneLoaded : MonoBehaviour
 {
+    //opening the first level and skin
     private void Start()
     {
         if (!PlayerPrefs.HasKey("available_levels"))

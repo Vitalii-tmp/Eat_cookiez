@@ -8,6 +8,7 @@ public class Music : MonoBehaviour
 {
     public static GameObject lvlsound;
 
+    //finding music
     private void Awake()
     {
         lvlsound = GameObject.FindGameObjectWithTag("sound");
