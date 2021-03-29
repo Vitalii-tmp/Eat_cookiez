@@ -1517,7 +1517,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameramove: {fileID: 798732393}
   MainCamera: {fileID: 1331919773}
-  Animation: 0
+  SelfMovingAnimation: 0
 --- !u!4 &462618203 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8719727128818304148, guid: 57ffa15a24c5a724d85f2eb74ade6555,
@@ -4425,7 +4425,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.9716981, g: 0.79641527, b: 0.5179334, a: 0}
+  m_BackGroundColor: {r: 0.34270388, g: 0.9716981, b: 0.19708972, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

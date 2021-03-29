@@ -2741,7 +2741,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameramove: {fileID: 2092363891}
   MainCamera: {fileID: 1331919773}
-  Animation: 0
+  SelfMovingAnimation: 0
 --- !u!1001 &816083517
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4498,7 +4498,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 1, g: 0.8010947, b: 0.5896226, a: 0}
+  m_BackGroundColor: {r: 0.40741688, g: 1, b: 0.3443396, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
