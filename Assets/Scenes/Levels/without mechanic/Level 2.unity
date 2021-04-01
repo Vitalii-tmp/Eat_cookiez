@@ -351,9 +351,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c338e5dd96080640aff48c3210b45c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD:Assets/Scenes/Levels/without mechanic/Level 2.unity
   MoveSpeed: 0.15
   pl_transform: {fileID: 1584282337}
   player: {fileID: 1584282336}
+=======
+  MoveSpeed: 0.1
+  pl_transform: {fileID: 346297561}
+  player: {fileID: 346297554}
+>>>>>>> cfe7fe1c4b4ce5e238026b387ed5c54cd4fe2a10:Assets/Scenes/Levels/Level 2.unity
 --- !u!114 &75158378
 MonoBehaviour:
   m_ObjectHideFlags: 0

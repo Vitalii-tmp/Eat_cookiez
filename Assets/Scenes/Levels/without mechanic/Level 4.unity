@@ -2220,9 +2220,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a97dcf32f37c4a849b66b2a6cc10ff0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD:Assets/Scenes/Levels/without mechanic/Level 4.unity
   player: {fileID: 651837761}
 --- !u!1001 &1312912517
 PrefabInstance:
+=======
+<<<<<<< HEAD
+  MoveSpeed: 0.1
+  pl_transform: {fileID: 1703998062}
+  player: {fileID: 1703998061}
+--- !u!114 &1092484352
+=======
+  player: {fileID: 304303302}
+--- !u!114 &1307369379
+>>>>>>> bb1f1ff65b27e3cd3101c057f0dec9f2f5264828
+MonoBehaviour:
+>>>>>>> cfe7fe1c4b4ce5e238026b387ed5c54cd4fe2a10:Assets/Scenes/Levels/Level 3.unity
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
