@@ -4,21 +4,22 @@ using UnityEngine;
 
 public class ChangeAnimation : MonoBehaviour
 {
-    [SerializeField] private Animator animator;
+    [SerializeField] private Animator _animator;
+
     private void Awake()
     {
         switch (PlayerPrefs.GetInt("skins"))
         {
             case 1:
-                animator.Play("Cow");
+                _animator.Play("Cow");
                 break;
 
             case 2:
-                animator.Play("Pig");
+                _animator.Play("Pig");
                 break;
 
             case 3:
-                animator.Play("Sheep");
+                _animator.Play("Sheep");
                 break;
         }
     } 

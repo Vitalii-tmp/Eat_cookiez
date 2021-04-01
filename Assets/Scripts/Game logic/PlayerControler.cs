@@ -3,54 +3,86 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-public class PlayerControler : MonoBehaviour, IDragHandler, IBeginDragHandler
+public class PlayerControler : MonoBehaviour, IBeginDragHandler
 {
     public float MoveSpeed;
-    private Vector3 dir;
-    private Vector3 lastDir;
-    public Transform pl_transform;
-    private bool reverse;
-
     public GameObject player;
+
+    private Vector3 _direction;
+    private Vector3 _lastDirection;
+    private readonly Vector3 _angleRight = new Vector3(0, 0, 90),
+        _angleLeft = new Vector3(0, 0, 270), _angleForward = new Vector3(0, 0, 180);
+    private bool _reverse;
 
     public bool ReturnReverse()
     {
-        return reverse;
+        return _reverse;
     } 
 
     public void respawn()
     {
        player.transform.position = Vector3.zero;
-      
     }
 
     void Start()
     {
-        dir = Vector3.up;
-        lastDir = Vector3.up;
-        reverse = false;
+        _direction = Vector3.up;
+        _lastDirection = Vector3.up;
+        _reverse = false;
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        if (reverse == false)
+        if (_reverse == false)
         {
             if (Mathf.Abs(eventData.delta.x) > Mathf.Abs(eventData.delta.y))
             {
 
-                if (eventData.delta.x > 0 && lastDir != Vector3.left)
+                if (eventData.delta.x > 0 && _lastDirection != Vector3.left)
                 {
-                    dir = Vector3.right;
-                    lastDir = Vector3.right;
-                    pl_transform.eulerAngles = new Vector3(0, 0, 90);
+                    _direction = Vector3.right;
+                    _lastDirection = Vector3.right;
+                    player.transform.eulerAngles = _angleRight;
                 }
 
 
-                if (eventData.delta.x < 0 && lastDir != Vector3.right)
+                if (eventData.delta.x < 0 && _lastDirection != Vector3.right)
                 {
-                    dir = Vector3.left;
-                    lastDir = Vector3.left;
-                    pl_transform.eulerAngles = new Vector3(0, 0, 270);
+                    _direction = Vector3.left;
+                    _lastDirection = Vector3.left;
+                    player.transform.eulerAngles = _angleLeft;
+                }
+            }
+            else
+            {
+                if (eventData.delta.y > 0)
+                {
+                    _direction = Vector3.up;
+                    _lastDirection = Vector3.up;
+                    player.transform.eulerAngles = _angleForward;
+                }
+            }
+        }
+
+
+        if (_reverse == true)
+        {
+            if (Mathf.Abs(eventData.delta.x) > Mathf.Abs(eventData.delta.y))
+            {
+
+                if (eventData.delta.x > 0 && _lastDirection != Vector3.right)
+                {
+                    _direction = Vector3.left;
+                    _lastDirection = Vector3.left;
+                    player.transform.eulerAngles = _angleLeft;
+                }
+
+
+                if (eventData.delta.x < 0 && _lastDirection != Vector3.left)
+                {
+                    _direction = Vector3.right;
+                    _lastDirection = Vector3.right;
+                    player.transform.eulerAngles = _angleRight;
                 }
 
             }
@@ -58,65 +90,27 @@ public class PlayerControler : MonoBehaviour, IDragHandler, IBeginDragHandler
             {
                 if (eventData.delta.y > 0)
                 {
-                    dir = Vector3.up;
-                    lastDir = Vector3.up;
-                    pl_transform.eulerAngles = new Vector3(0, 0, 180);
-                }
-            }
-        }
-
-
-        if (reverse == true)
-        {
-            if (Mathf.Abs(eventData.delta.x) > Mathf.Abs(eventData.delta.y))
-            {
-
-                if (eventData.delta.x > 0 && lastDir != Vector3.right)
-                {
-                    dir = Vector3.left;
-                    lastDir = Vector3.left;
-                    pl_transform.eulerAngles = new Vector3(0, 0, 270);
-                }
-
-
-                if (eventData.delta.x < 0 && lastDir != Vector3.left)
-                {
-                    dir = Vector3.right;
-                    lastDir = Vector3.right;
-                    pl_transform.eulerAngles = new Vector3(0, 0, 90);
-                }
-
-            }
-            else
-            {
-                if (eventData.delta.y > 0)
-                {
-                    dir = Vector3.up;
-                    lastDir = Vector3.up;
-                    pl_transform.eulerAngles = new Vector3(0, 0, 180);
+                    _direction = Vector3.up;
+                    _lastDirection = Vector3.up;
+                    player.transform.eulerAngles = _angleForward;
                 }
             }
         }
     }
 
-
-    public void OnDrag(PointerEventData eventData)
-    {
-
-    }
 
     void FixedUpdate()
     {
-        pl_transform.position += dir * MoveSpeed;
+        player.transform.position += _direction * MoveSpeed;
     }
 
     public Vector3 GetDir()
     {
-        return dir; 
+        return _direction; 
     }
 
     public void SetRevers(bool value)
     {
-        reverse = value;
+        _reverse = value;
     }
 }
