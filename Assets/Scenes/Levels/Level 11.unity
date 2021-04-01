@@ -5011,7 +5011,7 @@ SpriteRenderer:
   m_Size: {x: 2.01, y: 4.15}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &725105732
@@ -8115,7 +8115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a97dcf32f37c4a849b66b2a6cc10ff0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 356482679}
+  Player: {fileID: 356482679}
 --- !u!1001 &1333566457
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10191,7 +10191,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1899554316
 PrefabInstance:

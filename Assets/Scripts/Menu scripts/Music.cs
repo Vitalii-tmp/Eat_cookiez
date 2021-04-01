@@ -14,17 +14,19 @@ public class Music : MonoBehaviour
 
         if (lvlsound == null)        
             lvlsound = (GameObject)Instantiate(Resources.Load("sound"));
-         lvlsound.name = "sound";
+         
+        lvlsound.name = "sound";
 
         DontDestroyOnLoad(lvlsound);
     }
-    public void MuteMusic() 
+    public void MuteMusic()
     {
-        if (lvlsound.transform.GetChild(0).gameObject.GetComponent<AudioSource>().volume != 0)
-            lvlsound.transform.GetChild(0).gameObject.GetComponent<AudioSource>().volume = 0;
+        var volume = lvlsound.transform.GetChild(0).gameObject.GetComponent<AudioSource>().volume;
+        if (volume != 0)
+            volume = 0;
 
         else
-            lvlsound.transform.GetChild(0).gameObject.GetComponent<AudioSource>().volume = 0.3f;
+            volume = 0.3f;
 
     }
 }

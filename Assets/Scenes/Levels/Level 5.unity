@@ -2025,7 +2025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a97dcf32f37c4a849b66b2a6cc10ff0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1225451735}
+  Player: {fileID: 1225451735}
 --- !u!1001 &1590219886
 PrefabInstance:
   m_ObjectHideFlags: 0
