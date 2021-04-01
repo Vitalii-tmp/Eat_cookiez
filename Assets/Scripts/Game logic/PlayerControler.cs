@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-public class PlayerControler : MonoBehaviour, IBeginDragHandler
+public class PlayerControler : MonoBehaviour, IBeginDragHandler, IDragHandler
 {
     public float MoveSpeed;
     public GameObject player;
@@ -112,5 +112,10 @@ public class PlayerControler : MonoBehaviour, IBeginDragHandler
     public void SetRevers(bool value)
     {
         _reverse = value;
+    }
+
+    public void OnDrag(PointerEventData eventData)
+    {
+
     }
 }
