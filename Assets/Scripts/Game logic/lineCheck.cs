@@ -10,7 +10,7 @@ public class lineCheck : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            SceneManager.LoadScene(23);
+            SceneManager.LoadScene("DieMenu");
         }
     }
 }
