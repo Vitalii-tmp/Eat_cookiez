@@ -14,10 +14,10 @@ public class finish : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
+            SceneManager.LoadScene("Level finish");
             if (PlayerPrefs.GetInt("available_levels") == PlayerPrefs.GetInt("current_level"))
             {
                 PlayerPrefs.SetInt("available_levels", CurrentLevel + 1);
-                SceneManager.LoadScene("Level finish");
             }
         }
     }
