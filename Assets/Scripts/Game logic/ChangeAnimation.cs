@@ -21,6 +21,10 @@ public class ChangeAnimation : MonoBehaviour
             case 3:
                 _animator.Play("Sheep");
                 break;
+            case 4:
+                _animator.Play("Osel");
+                break;
+                
         }
     } 
 }
