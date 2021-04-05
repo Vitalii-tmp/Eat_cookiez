@@ -441,7 +441,7 @@ PrefabInstance:
     - target: {fileID: 2175624384931231653, guid: 3546d721aacb4704ea8c75c51ee4827f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.0000076293945
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2175624384931231653, guid: 3546d721aacb4704ea8c75c51ee4827f,
         type: 3}
@@ -727,7 +727,7 @@ PrefabInstance:
     - target: {fileID: 8582987120587970928, guid: 9315b3c6bf0756644a676f0c62df089a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.0000076293945
+      value: 0.000015258789
       objectReference: {fileID: 0}
     - target: {fileID: 8582987120587970928, guid: 9315b3c6bf0756644a676f0c62df089a,
         type: 3}
@@ -1142,7 +1142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SkinNumber: 4
   StrSkinNumber: 4
-  SkinPrice: 1500
+  SkinPrice: 500
   text: {fileID: 591925215}
   button: {fileID: 591925216}
 --- !u!1001 &1330698086
@@ -1416,7 +1416,7 @@ PrefabInstance:
     - target: {fileID: 5567398645673814551, guid: 7a601e4ac6becae45bbfd03e5b546268,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.0000076293945
+      value: 0.000015258789
       objectReference: {fileID: 0}
     - target: {fileID: 5567398645673814551, guid: 7a601e4ac6becae45bbfd03e5b546268,
         type: 3}
@@ -1656,7 +1656,7 @@ PrefabInstance:
     - target: {fileID: 5567398647091972995, guid: 7a601e4ac6becae45bbfd03e5b546268,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.000015258789
+      value: 0.000030517578
       objectReference: {fileID: 0}
     - target: {fileID: 5567398647091972995, guid: 7a601e4ac6becae45bbfd03e5b546268,
         type: 3}

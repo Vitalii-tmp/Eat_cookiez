@@ -21,13 +21,10 @@ public class Music : MonoBehaviour
     }
     public void MuteMusic()
     {
-        var volume = lvlsound.transform.GetChild(0).gameObject.GetComponent<AudioSource>().volume;
-        if (volume != 0)
-            volume = 0;
-
+        if (lvlsound.GetComponent<AudioSource>().volume != 0)
+            lvlsound.GetComponent<AudioSource>().volume = 0;
         else
-            volume = 0.3f;
-
+            lvlsound.GetComponent<AudioSource>().volume = 0.3f;
     }
 }
 

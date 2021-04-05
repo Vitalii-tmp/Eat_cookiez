@@ -714,7 +714,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SkinNumber: 3
   StrSkinNumber: 3
-  SkinPrice: 1000
+  SkinPrice: 250
   text: {fileID: 2069566785}
   button: {fileID: 2113411810}
 --- !u!1 &1468532274
