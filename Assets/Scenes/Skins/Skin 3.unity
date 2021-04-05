@@ -248,6 +248,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SceneLoad
       objectReference: {fileID: 0}
+    - target: {fileID: 3222858272003083526, guid: 13504b93bdff36c49a1316d61a9e469e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13504b93bdff36c49a1316d61a9e469e, type: 3}
 --- !u!224 &191933000 stripped
@@ -346,7 +351,7 @@ PrefabInstance:
     - target: {fileID: 8582987120587970928, guid: 9315b3c6bf0756644a676f0c62df089a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.20933533
+      value: -0.20932007
       objectReference: {fileID: 0}
     - target: {fileID: 8582987120587970928, guid: 9315b3c6bf0756644a676f0c62df089a,
         type: 3}
@@ -386,7 +391,7 @@ PrefabInstance:
     - target: {fileID: 8582987120587970943, guid: 9315b3c6bf0756644a676f0c62df089a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9315b3c6bf0756644a676f0c62df089a, type: 3}
@@ -1588,7 +1593,7 @@ PrefabInstance:
     - target: {fileID: 7763436182935504849, guid: 1df53bcc636ae82449a725f7e320d96f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7763436182935504855, guid: 1df53bcc636ae82449a725f7e320d96f,
         type: 3}
