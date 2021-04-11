@@ -7,9 +7,9 @@ public class SceneLoaded : MonoBehaviour
     private void Start()
     {
         if (!PlayerPrefs.HasKey("available_levels"))
-            PlayerPrefs.SetInt("available_levels", 25);
+            PlayerPrefs.SetInt("available_levels", 26);
         if (!PlayerPrefs.HasKey("current_level"))
-                PlayerPrefs.SetInt("current_level", 25);
+        PlayerPrefs.SetInt("current_level", 26);
         if (!PlayerPrefs.HasKey("skin1"))
             PlayerPrefs.SetInt("skin1", 1);
     }
