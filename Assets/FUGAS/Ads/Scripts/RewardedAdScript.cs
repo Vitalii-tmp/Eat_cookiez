@@ -2,6 +2,7 @@
 using Assets.FUGAS.Ads.Scripts.Helpers;
 using GoogleMobileAds.Api;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Assets.FUGAS.Ads.Scripts
 {
@@ -75,6 +76,7 @@ namespace Assets.FUGAS.Ads.Scripts
         public void OnShowRewardClick()
         {
             ShowAd();
+         
         }
 
         public void LoadAd()

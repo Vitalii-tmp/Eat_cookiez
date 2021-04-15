@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Advertisement Settings
   m_EditorClassIdentifier: 
   InterstitialUnitId: 
-  RewardedUnitId: ca-app-pub-2618512662549592/5290374954
+  RewardedUnitId: 
   BannerUnitId: 
   TestMode: 1

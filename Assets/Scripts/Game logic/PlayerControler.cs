@@ -13,7 +13,7 @@ public class PlayerControler : MonoBehaviour, IBeginDragHandler, IDragHandler
     private readonly Vector3 _angleRight = new Vector3(0, 0, 90),
         _angleLeft = new Vector3(0, 0, 270), _angleForward = new Vector3(0, 0, 180);
     private bool _reverse;
-
+    
     public bool ReturnReverse()
     {
         return _reverse;

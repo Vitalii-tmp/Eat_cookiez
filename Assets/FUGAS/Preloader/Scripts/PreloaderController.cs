@@ -52,7 +52,7 @@ namespace Assets.FUGAS.Preloader.Scripts
             animator.SetBool("is_ON", false);
             SceneManager.LoadScene(1);
             yield return new WaitForSeconds(3);
-            
+           
             // allow to destroy after intro 
             Destroy(gameObject);
             PreloaderUsed = true;

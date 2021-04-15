@@ -95,7 +95,8 @@ namespace Assets.FUGAS.Ads.Scripts
                 LoadAd();
             }
         }
-
+     
+       
         #region Clone
 
         public event EventHandler<EventArgs> OnAdLoaded;
