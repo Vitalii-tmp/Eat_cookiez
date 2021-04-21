@@ -13,6 +13,18 @@ public class SceneLoaded : MonoBehaviour
 
         if (!PlayerPrefs.HasKey("skin1"))
             PlayerPrefs.SetInt("skin1", 1);
+
+        if (!PlayerPrefs.HasKey("skin2"))
+            PlayerPrefs.SetInt("skin2", 0);
+
+        if (!PlayerPrefs.HasKey("skin3"))
+            PlayerPrefs.SetInt("skin3", 0);
+
+        if (!PlayerPrefs.HasKey("skin4"))
+            PlayerPrefs.SetInt("skin4", 0);
+
+        if (!PlayerPrefs.HasKey("skins"))
+            PlayerPrefs.SetInt("skins", 1);
     }
 
     public void SceneLoad(int index)
