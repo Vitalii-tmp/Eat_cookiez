@@ -11,6 +11,17 @@ public class SceneLoaded : MonoBehaviour
         if (!PlayerPrefs.HasKey("current_level"))
                 PlayerPrefs.SetInt("current_level", 26);
 
+      /* 
+        PlayerPrefs.SetInt("available_levels", 26);
+        PlayerPrefs.SetInt("current_level", 26);
+        PlayerPrefs.SetInt("skin1", 1);
+        PlayerPrefs.SetInt("skin2", 0);
+        PlayerPrefs.SetInt("skin3", 0);
+        PlayerPrefs.SetInt("skin4", 0);
+        PlayerPrefs.SetInt("skins", 1);
+        PlayerPrefs.SetInt("coins", 0);
+      */
+
         if (!PlayerPrefs.HasKey("skin1"))
             PlayerPrefs.SetInt("skin1", 1);
 
